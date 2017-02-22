@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,55,0" name="DanMu.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:d73537c5-83ba-4fc9-9451-0598567766d8(DanMu.constraints)/1245731709986696951">
+    <file name="Wait_Constraints.java">
+      <node id="1245731709986696951" at="23,29,24,128" concept="8" />
+      <node id="1245731709986696951" at="28,84,29,119" concept="5" />
+      <node id="1245731709986696951" at="32,37,33,20" concept="6" />
+      <node id="1245731709986696951" at="36,48,37,42" concept="5" />
+      <node id="1245731709987100340" at="38,9,39,57" concept="5" />
+      <node id="1245731709987706032" at="39,57,40,67" concept="5" />
+      <node id="1245731709987004659" at="42,56,43,188" concept="6" />
+      <node id="1245731709987354824" at="47,185,48,38" concept="5" />
+      <node id="1245731709987383843" at="48,38,49,201" concept="2" />
+      <node id="1245731709987758395" at="50,33,51,33" concept="2" />
+      <node id="1245731709987525737" at="55,13,56,27" concept="6" />
+      <node id="1245731709986696951" at="59,7,60,22" concept="6" />
+      <node id="1245731709986696951" at="23,0,26,0" concept="1" trace="Wait_Constraints#()V" />
+      <node id="1245731709987004659" at="42,0,45,0" concept="4" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+      <node id="1245731709987418254" at="49,201,52,17" concept="3" />
+      <node id="1245731709986696951" at="31,0,35,0" concept="4" trace="hasOwnGetter#()Z" />
+      <node id="1245731709987259950" at="46,41,53,15" concept="3" />
+      <node id="1245731709987072015" at="46,0,55,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1245731709986814332" at="40,67,55,13" concept="2" />
+      <node id="1245731709986696951" at="37,42,57,9" concept="0" />
+      <node id="1245731709986696951" at="35,0,59,0" concept="4" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1245731709986696951" at="29,119,59,7" concept="2" />
+      <node id="1245731709986696951" at="27,0,62,0" concept="4" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="1245731709986696951" at="23,29,24,128" />
+      <scope id="1245731709986696951" at="32,37,33,20" />
+      <scope id="1245731709987004659" at="42,56,43,188" />
+      <scope id="1245731709987418256" at="50,33,51,33" />
+      <scope id="1245731709986696951" at="23,0,26,0" />
+      <scope id="1245731709987004659" at="42,0,45,0">
+        <var name="it" id="1245731709987004659" />
+      </scope>
+      <scope id="1245731709986696951" at="31,0,35,0" />
+      <scope id="1245731709987259952" at="47,185,52,17">
+        <var name="nw" id="1245731709987354827" />
+      </scope>
+      <scope id="1245731709987072016" at="46,41,53,15" />
+      <scope id="1245731709987072015" at="46,0,55,0">
+        <var name="it" id="1245731709987072015" />
+      </scope>
+      <scope id="1245731709986696962" at="38,9,56,27">
+        <var name="b" id="1245731709987706035" />
+        <var name="ret" id="1245731709987100343" />
+      </scope>
+      <scope id="1245731709986696951" at="36,48,57,9">
+        <var name="propertyName" id="1245731709986696951" />
+      </scope>
+      <scope id="1245731709986696951" at="35,0,59,0">
+        <var name="node" id="1245731709986696951" />
+      </scope>
+      <scope id="1245731709986696951" at="28,84,60,22">
+        <var name="properties" id="1245731709986696951" />
+      </scope>
+      <scope id="1245731709986696951" at="27,0,62,0" />
+      <unit id="1245731709987004659" at="41,215,45,11" name="DanMu.constraints.Wait_Constraints$2" />
+      <unit id="1245731709987072015" at="45,26,55,11" name="DanMu.constraints.Wait_Constraints$2" />
+      <unit id="1245731709986696951" at="30,152,59,5" name="DanMu.constraints.Wait_Constraints$1" />
+      <unit id="1245731709986696951" at="22,0,63,0" name="DanMu.constraints.Wait_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d73537c5-83ba-4fc9-9451-0598567766d8(DanMu.constraints)/1245731709987908750">
+    <file name="Tween_Constraints.java">
+      <node id="1245731709987908750" at="30,30,31,128" concept="8" />
+      <node id="1245731709987908750" at="35,90,36,131" concept="5" />
+      <node id="1245731709987908750" at="39,44,40,20" concept="6" />
+      <node id="1245731709987908750" at="47,63,48,58" concept="6" />
+      <node id="728656405201728784" at="52,13,53,225" concept="5" />
+      <node id="1245731709988664349" at="55,49,56,362" concept="6" />
+      <node id="5359429653078382984" at="59,52,60,347" concept="6" />
+      <node id="1245731709987908750" at="67,7,68,22" concept="6" />
+      <node id="1245731709987908750" at="70,0,71,0" concept="7" trace="breakingNode_8j1xxt_a0a0a0a0a1a0b0a1a2" />
+      <node id="1245731709987908750" at="30,0,33,0" concept="1" trace="Tween_Constraints#()V" />
+      <node id="1245731709988663633" at="55,0,58,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5359429653078379663" at="59,0,62,0" concept="4" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1245731709987908750" at="38,0,42,0" concept="4" trace="hasOwnScopeProvider#()Z" />
+      <node id="1245731709987908750" at="46,0,50,0" concept="4" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5359429653078371356" at="53,225,62,16" concept="6" />
+      <node id="1245731709987908750" at="51,122,63,13" concept="0" />
+      <node id="1245731709987908750" at="50,0,65,0" concept="4" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1245731709987908750" at="44,56,65,10" concept="6" />
+      <node id="1245731709987908750" at="42,0,67,0" concept="4" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1245731709987908750" at="36,131,67,7" concept="2" />
+      <node id="1245731709987908750" at="34,0,70,0" concept="4" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="1245731709987908750" at="30,30,31,128" />
+      <scope id="1245731709987908750" at="39,44,40,20" />
+      <scope id="1245731709987908750" at="47,63,48,58" />
+      <scope id="1245731709988663634" at="55,49,56,362" />
+      <scope id="5359429653078379669" at="59,52,60,347" />
+      <scope id="1245731709987908750" at="30,0,33,0" />
+      <scope id="1245731709988663633" at="55,0,58,0">
+        <var name="it" id="1245731709988663633" />
+      </scope>
+      <scope id="5359429653078379663" at="59,0,62,0">
+        <var name="child" id="5359429653078379667" />
+      </scope>
+      <scope id="1245731709987908750" at="38,0,42,0" />
+      <scope id="1245731709987908750" at="46,0,50,0" />
+      <scope id="1245731709987909900" at="52,13,62,16">
+        <var name="an" id="728656405201728787" />
+      </scope>
+      <scope id="1245731709987908750" at="51,122,63,13" />
+      <scope id="1245731709987908750" at="50,0,65,0">
+        <var name="_context" id="1245731709987908750" />
+        <var name="operationContext" id="1245731709987908750" />
+      </scope>
+      <scope id="1245731709987908750" at="44,56,65,10" />
+      <scope id="1245731709987908750" at="42,0,67,0" />
+      <scope id="1245731709987908750" at="35,90,68,22">
+        <var name="references" id="1245731709987908750" />
+      </scope>
+      <scope id="1245731709987908750" at="34,0,70,0" />
+      <unit id="1245731709988663633" at="54,150,58,15" name="DanMu.constraints.Tween_Constraints$4" />
+      <unit id="5359429653078379651" at="54,25,62,15" name="DanMu.constraints.Tween_Constraints$3" />
+      <unit id="1245731709987908750" at="45,19,65,9" name="DanMu.constraints.Tween_Constraints$2" />
+      <unit id="1245731709987908750" at="37,156,67,5" name="DanMu.constraints.Tween_Constraints$1" />
+      <unit id="1245731709987908750" at="29,0,72,0" name="DanMu.constraints.Tween_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:d73537c5-83ba-4fc9-9451-0598567766d8(DanMu.constraints)/919687664648299119">
+    <file name="Projectile_Constraints.java">
+      <node id="919687664648299119" at="9,35,10,134" concept="8" />
+      <node id="919687664648299119" at="9,0,12,0" concept="1" trace="Projectile_Constraints#()V" />
+      <scope id="919687664648299119" at="9,35,10,134" />
+      <scope id="919687664648299119" at="9,0,12,0" />
+      <unit id="919687664648299119" at="8,0,14,0" name="DanMu.constraints.Projectile_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

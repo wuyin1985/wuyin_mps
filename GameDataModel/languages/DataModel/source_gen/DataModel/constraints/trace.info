@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,50,0" name="DataModel.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136">
+    <file name="LuaTable_Constraints.java">
+      <node id="8988840749430563136" at="25,33,26,135" concept="10" />
+      <node id="8988840749430563136" at="30,84,31,119" concept="6" />
+      <node id="8988840749430563136" at="34,37,35,20" concept="7" />
+      <node id="8988840749430563136" at="38,62,39,42" concept="6" />
+      <node id="8988840749430771272" at="40,9,41,207" concept="3" />
+      <node id="8988840749430615569" at="41,207,42,143" concept="6" />
+      <node id="7682414375379840675" at="43,11,44,20" concept="6" />
+      <node id="7682414375379840675" at="44,20,45,82" concept="6" />
+      <node id="7682414375379840675" at="47,44,48,22" concept="1" />
+      <node id="7682414375379840675" at="49,15,50,36" concept="3" />
+      <node id="7682414375379873385" at="51,15,52,189" concept="6" />
+      <node id="7682414375380182912" at="52,189,53,165" concept="3" />
+      <node id="8988840749430620822" at="53,165,54,219" concept="3" />
+      <node id="8988840749430686859" at="57,11,58,216" concept="3" />
+      <node id="8988840749430616446" at="58,216,59,0" concept="8" />
+      <node id="8988840749430563136" at="63,40,64,20" concept="7" />
+      <node id="8988840749430563136" at="67,70,68,42" concept="6" />
+      <node id="7682414375379728729" at="69,9,70,143" concept="6" />
+      <node id="8988840749430713019" at="70,143,71,68" concept="6" />
+      <node id="8988840749430926816" at="74,33,75,213" concept="3" />
+      <node id="8988840749430722315" at="78,11,79,21" concept="7" />
+      <node id="8988840749430563136" at="82,7,83,22" concept="7" />
+      <node id="8988840749430563136" at="25,0,28,0" concept="2" trace="LuaTable_Constraints#()V" />
+      <node id="7682414375379840675" at="46,26,49,15" concept="4" />
+      <node id="8988840749431446052" at="74,0,77,0" concept="5" trace="run#()V" />
+      <node id="8988840749430563136" at="33,0,37,0" concept="5" trace="hasOwnSetter#()Z" />
+      <node id="8988840749430563136" at="62,0,66,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="7682414375379840675" at="50,36,55,15" concept="0" />
+      <node id="8988840749431378941" at="72,23,77,15" concept="3" />
+      <node id="8988840749430727015" at="71,68,78,11" concept="4" />
+      <node id="7682414375379840675" at="45,82,56,13" concept="11" />
+      <node id="8988840749430563136" at="68,42,80,9" concept="0" />
+      <node id="7682414375379840675" at="42,143,57,11" concept="0" />
+      <node id="8988840749430563136" at="66,0,82,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="8988840749430563136" at="39,42,60,9" concept="0" />
+      <node id="8988840749430563136" at="37,0,62,0" concept="5" trace="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="8988840749430563136" at="31,119,82,7" concept="3" />
+      <node id="8988840749430563136" at="29,0,85,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="8988840749430563136" at="25,33,26,135" />
+      <scope id="8988840749430563136" at="34,37,35,20" />
+      <scope id="7682414375379840675" at="47,44,48,22" />
+      <scope id="8988840749430563136" at="63,40,64,20" />
+      <scope id="8988840749431446056" at="74,33,75,213" />
+      <scope id="8988840749430563136" at="25,0,28,0" />
+      <scope id="7682414375379840685" at="51,15,54,219">
+        <var name="s" id="7682414375379873388" />
+      </scope>
+      <scope id="8988840749431446052" at="74,0,77,0" />
+      <scope id="8988840749430563136" at="33,0,37,0" />
+      <scope id="8988840749430563136" at="62,0,66,0" />
+      <scope id="8988840749430727017" at="72,23,77,15" />
+      <scope id="7682414375379840675" at="46,26,55,15" />
+      <scope id="8988840749430563140" at="69,9,79,21">
+        <var name="fields" id="7682414375379728732" />
+        <var name="ret" id="8988840749430713022" />
+      </scope>
+      <scope id="7682414375379840675" at="43,11,56,13">
+        <var name="f" id="7682414375379840679" />
+        <var name="f_iterator" id="7682414375379840675" />
+      </scope>
+      <scope id="8988840749430563136" at="67,70,80,9">
+        <var name="propertyName" id="8988840749430563136" />
+      </scope>
+      <scope id="8988840749430563136" at="66,0,82,0">
+        <var name="node" id="8988840749430563136" />
+        <var name="propertyValue" id="8988840749430563136" />
+      </scope>
+      <scope id="8988840749430614001" at="40,9,59,0">
+        <var name="fields" id="8988840749430615570" />
+      </scope>
+      <scope id="8988840749430563136" at="38,62,60,9">
+        <var name="propertyName" id="8988840749430563136" />
+      </scope>
+      <scope id="8988840749430563136" at="37,0,62,0">
+        <var name="node" id="8988840749430563136" />
+        <var name="propertyValue" id="8988840749430563136" />
+      </scope>
+      <scope id="8988840749430563136" at="30,84,83,22">
+        <var name="properties" id="8988840749430563136" />
+      </scope>
+      <scope id="8988840749430563136" at="29,0,85,0" />
+      <unit id="8988840749431446050" at="73,54,77,13" name="DataModel.constraints.LuaTable_Constraints$2" />
+      <unit id="8988840749430563136" at="32,151,82,5" name="DataModel.constraints.LuaTable_Constraints$1" />
+      <unit id="8988840749430563136" at="24,0,86,0" name="DataModel.constraints.LuaTable_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/9104388502763536000">
+    <file name="NumberReference_Constraints.java">
+      <node id="9104388502763536000" at="25,40,26,142" concept="10" />
+      <node id="9104388502763536000" at="30,90,31,131" concept="6" />
+      <node id="9104388502763536000" at="34,44,35,20" concept="7" />
+      <node id="9104388502763536000" at="42,63,43,56" concept="7" />
+      <node id="9104388502763536000" at="47,13,48,232" concept="6" />
+      <node id="9104388502763536000" at="48,232,49,64" concept="7" />
+      <node id="9104388502763536000" at="54,7,55,22" concept="7" />
+      <node id="9104388502763536000" at="57,0,58,0" concept="9" trace="breakingNode_heho_a0a0a0a0a1a0b0a1a2" />
+      <node id="9104388502763536000" at="25,0,28,0" concept="2" trace="NumberReference_Constraints#()V" />
+      <node id="9104388502763536000" at="33,0,37,0" concept="5" trace="hasOwnScopeProvider#()Z" />
+      <node id="9104388502763536000" at="41,0,45,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9104388502763536000" at="46,122,50,13" concept="0" />
+      <node id="9104388502763536000" at="45,0,52,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="9104388502763536000" at="39,56,52,10" concept="7" />
+      <node id="9104388502763536000" at="37,0,54,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="9104388502763536000" at="31,131,54,7" concept="3" />
+      <node id="9104388502763536000" at="29,0,57,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="9104388502763536000" at="25,40,26,142" />
+      <scope id="9104388502763536000" at="34,44,35,20" />
+      <scope id="9104388502763536000" at="42,63,43,56" />
+      <scope id="9104388502763536000" at="47,13,49,64">
+        <var name="scope" id="9104388502763536000" />
+      </scope>
+      <scope id="9104388502763536000" at="25,0,28,0" />
+      <scope id="9104388502763536000" at="33,0,37,0" />
+      <scope id="9104388502763536000" at="41,0,45,0" />
+      <scope id="9104388502763536000" at="46,122,50,13" />
+      <scope id="9104388502763536000" at="45,0,52,0">
+        <var name="_context" id="9104388502763536000" />
+        <var name="operationContext" id="9104388502763536000" />
+      </scope>
+      <scope id="9104388502763536000" at="39,56,52,10" />
+      <scope id="9104388502763536000" at="37,0,54,0" />
+      <scope id="9104388502763536000" at="30,90,55,22">
+        <var name="references" id="9104388502763536000" />
+      </scope>
+      <scope id="9104388502763536000" at="29,0,57,0" />
+      <unit id="9104388502763536000" at="40,19,52,9" name="DataModel.constraints.NumberReference_Constraints$2" />
+      <unit id="9104388502763536000" at="32,152,54,5" name="DataModel.constraints.NumberReference_Constraints$1" />
+      <unit id="9104388502763536000" at="24,0,59,0" name="DataModel.constraints.NumberReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

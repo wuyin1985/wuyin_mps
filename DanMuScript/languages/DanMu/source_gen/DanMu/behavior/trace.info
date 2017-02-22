@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="14,0,54,0" name="DanMu.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="CharinfoTable_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.CharinfoTable_BehaviorDescriptor" />
+    </file>
+    <file name="Command_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Command_BehaviorDescriptor" />
+    </file>
+    <file name="Commands_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Commands_BehaviorDescriptor" />
+    </file>
+    <file name="Emitter_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Emitter_BehaviorDescriptor" />
+    </file>
+    <file name="Projectile_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Projectile_BehaviorDescriptor" />
+    </file>
+    <file name="Shot_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Shot_BehaviorDescriptor" />
+    </file>
+    <file name="TableRow_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.TableRow_BehaviorDescriptor" />
+    </file>
+    <file name="Tween_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Tween_BehaviorDescriptor" />
+    </file>
+    <file name="Wait_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="DanMu.behavior.Wait_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b050517e-650a-497d-88a7-ccb28c949ea8(DanMu.behavior)/996484673865519688">
+    <file name="Command__BehaviorDescriptor.java">
+      <node id="996484673865519688" at="20,0,21,0" concept="6" trace="CONCEPT" />
+      <node id="996484673865519688" at="21,0,22,0" concept="6" trace="REGISTRY" />
+      <node id="996484673865519688" at="24,0,25,0" concept="6" trace="BH_METHODS" />
+      <node id="996484673865519688" at="30,45,31,20" concept="8" />
+      <node id="996484673865519688" at="35,114,36,21" concept="1" />
+      <node id="996484673865519688" at="40,114,41,49" concept="4" />
+      <node id="996484673865519688" at="42,26,43,56" concept="10" />
+      <node id="996484673865519688" at="46,14,47,58" concept="10" />
+      <node id="996484673865519688" at="52,128,53,49" concept="4" />
+      <node id="996484673865519688" at="54,26,55,56" concept="10" />
+      <node id="996484673865519688" at="58,14,59,58" concept="10" />
+      <node id="996484673865519688" at="65,48,66,22" concept="5" />
+      <node id="996484673865519688" at="71,40,72,19" concept="5" />
+      <node id="996484673865519688" at="26,0,28,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="996484673865519688" at="30,0,33,0" concept="0" trace="Command__BehaviorDescriptor#()V" />
+      <node id="996484673865519688" at="41,49,44,5" concept="2" />
+      <node id="996484673865519688" at="53,49,56,5" concept="2" />
+      <node id="996484673865519688" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="996484673865519688" at="44,5,48,5" concept="9" />
+      <node id="996484673865519688" at="56,5,60,5" concept="9" />
+      <node id="996484673865519688" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="996484673865519688" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="996484673865519688" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="996484673865519688" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="996484673865519688" at="26,63,26,63" />
+      <scope id="996484673865519688" at="30,45,31,20" />
+      <scope id="996484673865519688" at="35,114,36,21" />
+      <scope id="996484673865519688" at="42,26,43,56" />
+      <scope id="996484673865519688" at="46,14,47,58" />
+      <scope id="996484673865519688" at="54,26,55,56" />
+      <scope id="996484673865519688" at="58,14,59,58" />
+      <scope id="996484673865519688" at="65,48,66,22" />
+      <scope id="996484673865519688" at="71,40,72,19" />
+      <scope id="996484673865519688" at="26,0,28,0">
+        <var name="__thisNode__" id="996484673865519688" />
+      </scope>
+      <scope id="996484673865519688" at="30,0,33,0" />
+      <scope id="996484673865519688" at="34,0,38,0">
+        <var name="constructor" id="996484673865519688" />
+        <var name="node" id="996484673865519688" />
+        <var name="parameters" id="996484673865519688" />
+      </scope>
+      <scope id="996484673865519688" at="63,0,68,0" />
+      <scope id="996484673865519688" at="69,0,74,0" />
+      <scope id="996484673865519688" at="40,114,48,5">
+        <var name="methodIndex" id="996484673865519688" />
+      </scope>
+      <scope id="996484673865519688" at="52,128,60,5">
+        <var name="methodIndex" id="996484673865519688" />
+      </scope>
+      <scope id="996484673865519688" at="39,0,50,0">
+        <var name="method" id="996484673865519688" />
+        <var name="node" id="996484673865519688" />
+        <var name="parameters" id="996484673865519688" />
+      </scope>
+      <scope id="996484673865519688" at="51,0,62,0">
+        <var name="concept" id="996484673865519688" />
+        <var name="method" id="996484673865519688" />
+        <var name="parameters" id="996484673865519688" />
+      </scope>
+      <unit id="996484673865519688" at="19,0,75,0" name="DanMu.behavior.Command__BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b050517e-650a-497d-88a7-ccb28c949ea8(DanMu.behavior)/996484673865995746">
+    <file name="CharinfoTable__BehaviorDescriptor.java">
+      <node id="996484673865995746" at="20,0,21,0" concept="6" trace="CONCEPT" />
+      <node id="996484673865995746" at="21,0,22,0" concept="6" trace="REGISTRY" />
+      <node id="996484673865995746" at="24,0,25,0" concept="6" trace="BH_METHODS" />
+      <node id="996484673865995746" at="30,51,31,20" concept="8" />
+      <node id="996484673865995746" at="35,114,36,21" concept="1" />
+      <node id="996484673865995746" at="40,114,41,49" concept="4" />
+      <node id="996484673865995746" at="42,26,43,56" concept="10" />
+      <node id="996484673865995746" at="46,14,47,58" concept="10" />
+      <node id="996484673865995746" at="52,128,53,49" concept="4" />
+      <node id="996484673865995746" at="54,26,55,56" concept="10" />
+      <node id="996484673865995746" at="58,14,59,58" concept="10" />
+      <node id="996484673865995746" at="65,48,66,22" concept="5" />
+      <node id="996484673865995746" at="71,40,72,19" concept="5" />
+      <node id="996484673865995746" at="26,0,28,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="996484673865995746" at="30,0,33,0" concept="0" trace="CharinfoTable__BehaviorDescriptor#()V" />
+      <node id="996484673865995746" at="41,49,44,5" concept="2" />
+      <node id="996484673865995746" at="53,49,56,5" concept="2" />
+      <node id="996484673865995746" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="996484673865995746" at="44,5,48,5" concept="9" />
+      <node id="996484673865995746" at="56,5,60,5" concept="9" />
+      <node id="996484673865995746" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="996484673865995746" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="996484673865995746" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="996484673865995746" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="996484673865995746" at="26,63,26,63" />
+      <scope id="996484673865995746" at="30,51,31,20" />
+      <scope id="996484673865995746" at="35,114,36,21" />
+      <scope id="996484673865995746" at="42,26,43,56" />
+      <scope id="996484673865995746" at="46,14,47,58" />
+      <scope id="996484673865995746" at="54,26,55,56" />
+      <scope id="996484673865995746" at="58,14,59,58" />
+      <scope id="996484673865995746" at="65,48,66,22" />
+      <scope id="996484673865995746" at="71,40,72,19" />
+      <scope id="996484673865995746" at="26,0,28,0">
+        <var name="__thisNode__" id="996484673865995746" />
+      </scope>
+      <scope id="996484673865995746" at="30,0,33,0" />
+      <scope id="996484673865995746" at="34,0,38,0">
+        <var name="constructor" id="996484673865995746" />
+        <var name="node" id="996484673865995746" />
+        <var name="parameters" id="996484673865995746" />
+      </scope>
+      <scope id="996484673865995746" at="63,0,68,0" />
+      <scope id="996484673865995746" at="69,0,74,0" />
+      <scope id="996484673865995746" at="40,114,48,5">
+        <var name="methodIndex" id="996484673865995746" />
+      </scope>
+      <scope id="996484673865995746" at="52,128,60,5">
+        <var name="methodIndex" id="996484673865995746" />
+      </scope>
+      <scope id="996484673865995746" at="39,0,50,0">
+        <var name="method" id="996484673865995746" />
+        <var name="node" id="996484673865995746" />
+        <var name="parameters" id="996484673865995746" />
+      </scope>
+      <scope id="996484673865995746" at="51,0,62,0">
+        <var name="concept" id="996484673865995746" />
+        <var name="method" id="996484673865995746" />
+        <var name="parameters" id="996484673865995746" />
+      </scope>
+      <unit id="996484673865995746" at="19,0,75,0" name="DanMu.behavior.CharinfoTable__BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

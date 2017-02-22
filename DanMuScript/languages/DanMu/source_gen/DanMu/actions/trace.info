@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="12,0,24,0" name="DanMu.actions.ActionAspectDescriptorImpl" />
+    </file>
+    <file name="QueriesGenerated.java">
+      <unit at="23,0,62,0" name="DanMu.actions.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:97843c2a-f55d-4df8-a536-e2f948c24e0f(DanMu.actions)/4548053250353940552">
+    <file name="QueriesGenerated.java">
+      <node id="4548053250353940553" at="24,207,25,93" concept="5" />
+      <node id="4548053250353940553" at="26,5,27,170" concept="5" />
+      <node id="4548053250353940553" at="27,170,28,62" concept="5" />
+      <node id="4548053250353951849" at="31,47,32,79" concept="5" />
+      <node id="4548053250354082880" at="32,79,33,31" concept="6" />
+      <node id="4548053250354088145" at="39,98,40,181" concept="5" />
+      <node id="4548053250354144205" at="40,181,41,181" concept="1" />
+      <node id="4548053250354178818" at="41,181,42,170" concept="1" />
+      <node id="4548053250354194577" at="42,170,43,25" concept="6" />
+      <node id="4548053250354345229" at="45,61,46,38" concept="6" />
+      <node id="4548053250353940553" at="48,68,49,48" concept="6" />
+      <node id="4548053250354235637" at="51,64,52,35" concept="6" />
+      <node id="4548053250353940553" at="58,5,59,18" concept="6" />
+      <node id="4548053250353940553" at="45,0,48,0" concept="4" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4548053250353940553" at="48,0,51,0" concept="4" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4548053250353940553" at="51,0,54,0" concept="4" trace="getDescriptionText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4548053250353940553" at="31,0,35,0" concept="4" trace="compute#()Ljava/lang/Iterable;" />
+      <node id="4548053250353940553" at="29,133,35,20" concept="5" />
+      <node id="4548053250353940553" at="39,0,45,0" concept="4" trace="createChildNode#(Ljava/lang/Object;Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4548053250353940553" at="37,51,54,15" concept="1" />
+      <node id="4548053250353940553" at="36,34,55,11" concept="2" />
+      <node id="4548053250353940553" at="35,20,56,9" concept="3" />
+      <node id="4548053250353940553" at="28,62,57,7" concept="3" />
+      <node id="4548053250353940553" at="25,93,58,5" concept="0" />
+      <node id="4548053250353940553" at="24,0,61,0" concept="7" trace="nodeSubstituteActionsBuilder_ActionsFactory_TableRow_4548053250353940553#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstituteActionsFactoryContext;)Ljava/util/List;" />
+      <scope id="4548053250354280415" at="45,61,46,38" />
+      <scope id="4548053250353940553" at="48,68,49,48" />
+      <scope id="4548053250354232150" at="51,64,52,35" />
+      <scope id="4548053250353940553" at="31,47,33,31">
+        <var name="t" id="4548053250353951850" />
+      </scope>
+      <scope id="4548053250353940553" at="45,0,48,0">
+        <var name="pattern" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="48,0,51,0">
+        <var name="pattern" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="51,0,54,0">
+        <var name="pattern" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="31,0,35,0" />
+      <scope id="4548053250353940759" at="39,98,43,25">
+        <var name="r" id="4548053250354088148" />
+      </scope>
+      <scope id="4548053250353940553" at="39,0,45,0">
+        <var name="model" id="4548053250353940553" />
+        <var name="parameterObject" id="4548053250353940553" />
+        <var name="pattern" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="37,51,54,15" />
+      <scope id="4548053250353940553" at="36,34,55,11" />
+      <scope id="4548053250353940553" at="36,34,55,11">
+        <var name="item" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="29,133,56,9">
+        <var name="queryResult" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="26,5,57,7">
+        <var name="childConcept" id="4548053250353940553" />
+        <var name="outputConcept" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="24,207,59,18">
+        <var name="result" id="4548053250353940553" />
+      </scope>
+      <scope id="4548053250353940553" at="24,0,61,0">
+        <var name="_context" id="4548053250353940553" />
+        <var name="operationContext" id="4548053250353940553" />
+      </scope>
+      <unit id="4548053250353940553" at="30,45,35,9" name="DanMu.actions.QueriesGenerated$1" />
+      <unit id="4548053250353940553" at="38,57,54,13" name="DanMu.actions.QueriesGenerated$2" />
+    </file>
+  </root>
+</debug-info>
+
