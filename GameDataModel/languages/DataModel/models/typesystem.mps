@@ -160,5 +160,28 @@
       <ref role="1YaFvo" to="f1hy:7S_1Ard209G" resolve="LuaTableReference" />
     </node>
   </node>
+  <node concept="1YbPZF" id="18YjMhmHwPb">
+    <property role="TrG5h" value="typeof_LuaTF" />
+    <node concept="3clFbS" id="18YjMhmHwPc" role="18ibNy">
+      <node concept="1Z5TYs" id="18YjMhmHxvU" role="3cqZAp">
+        <node concept="mw_s8" id="18YjMhmHxwe" role="1ZfhKB">
+          <node concept="2c44tf" id="18YjMhmHxwa" role="mwGJk">
+            <node concept="10Oyi0" id="18YjMhmHxw$" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="18YjMhmHxvX" role="1ZfhK$">
+          <node concept="1Z2H0r" id="18YjMhmHwPi" role="mwGJk">
+            <node concept="1YBJjd" id="18YjMhmHwR2" role="1Z2MuG">
+              <ref role="1YBMHb" node="18YjMhmHwPe" resolve="luaTF" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="18YjMhmHwPe" role="1YuTPh">
+      <property role="TrG5h" value="luaTF" />
+      <ref role="1YaFvo" to="f1hy:18YjMhmHfz5" resolve="LuaTF" />
+    </node>
+  </node>
 </model>
 

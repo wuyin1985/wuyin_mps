@@ -24,6 +24,8 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.editor.menus.SingleItemMenuPart;
 import jetbrains.mps.openapi.editor.menus.transformation.ActionItemBase;
 import jetbrains.mps.nodeEditor.cellMenu.SideTransformCompletionActionItem;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class table_dot_op extends TransformationMenuBase {
@@ -96,7 +98,10 @@ public class table_dot_op extends TransformationMenuBase {
 
           @Override
           public void execute(@NotNull String pattern) {
-            SLinkOperations.setTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, 0x54cd1444314d3817L, "field"), myParameterObject);
+            SNode tf = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456b4f8c5L, "DataModel.structure.LuaTF"));
+            SLinkOperations.setTarget(tf, MetaAdapterFactory.getReferenceLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456b4f8c5L, 0x123e4f2456b4f8c6L, "table"), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, 0x7e250666cd08026dL, "table")));
+            SLinkOperations.setTarget(tf, MetaAdapterFactory.getReferenceLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456b4f8c5L, 0x123e4f2456b4f8c8L, "field"), myParameterObject);
+            SNodeOperations.replaceWithAnother(_context.getNode(), tf);
           }
 
 

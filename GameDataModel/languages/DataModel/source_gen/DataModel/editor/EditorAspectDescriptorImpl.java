@@ -35,55 +35,65 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           break;
         case 2:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new LuaTable_Editor());
+            return Collections.<ConceptEditor>singletonList(new LuaTF_Editor());
           }
           break;
         case 3:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new LuaTableField_Editor());
+            return Collections.<ConceptEditor>singletonList(new LuaTable_Editor());
           }
           break;
         case 4:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new LuaTableReference_Editor());
+            return Collections.<ConceptEditor>singletonList(new LuaTableField_Editor());
           }
           break;
         case 5:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new Model_Editor());
+            return Collections.<ConceptEditor>singletonList(new LuaTableFieldReference_Editor());
           }
           break;
         case 6:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new NumberReference_Editor());
+            return Collections.<ConceptEditor>singletonList(new LuaTableReference_Editor());
           }
           break;
         case 7:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new NumberValue_Editor());
+            return Collections.<ConceptEditor>singletonList(new Model_Editor());
           }
           break;
         case 8:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new ResourceItem_Editor());
+            return Collections.<ConceptEditor>singletonList(new NumberReference_Editor());
           }
           break;
         case 9:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new ResourceMoney_Editor());
+            return Collections.<ConceptEditor>singletonList(new NumberValue_Editor());
           }
           break;
         case 10:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new StringValue_Editor());
+            return Collections.<ConceptEditor>singletonList(new ResourceItem_Editor());
           }
           break;
         case 11:
           if (true) {
-            return Collections.<ConceptEditor>singletonList(new ValueAssignment_Editor());
+            return Collections.<ConceptEditor>singletonList(new ResourceMoney_Editor());
           }
           break;
         case 12:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new StringValue_Editor());
+          }
+          break;
+        case 13:
+          if (true) {
+            return Collections.<ConceptEditor>singletonList(new ValueAssignment_Editor());
+          }
+          break;
+        case 14:
           if (true) {
             return Collections.<ConceptEditor>singletonList(new ValueTransform_Editor());
           }
@@ -127,7 +137,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6d01L, "DataModel.structure.BoolValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eecbbbfL, "DataModel.structure.ChildString"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL, "DataModel.structure.LuaTable"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L, "DataModel.structure.LuaTableField"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, "DataModel.structure.LuaTableReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade95480L, "DataModel.structure.Model"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5c3470L, "DataModel.structure.NumberReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6cebL, "DataModel.structure.NumberValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c6232afL, "DataModel.structure.ResourceItem"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c621007L, "DataModel.structure.ResourceMoney"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6cd9L, "DataModel.structure.StringValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c62ae88L, "DataModel.structure.ValueAssignment"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5bb032L, "DataModel.structure.ValueTransform"));
+  private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0a = buildConceptIndices(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6d01L, "DataModel.structure.BoolValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eecbbbfL, "DataModel.structure.ChildString"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456b4f8c5L, "DataModel.structure.LuaTF"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL, "DataModel.structure.LuaTable"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L, "DataModel.structure.LuaTableField"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456addc56L, "DataModel.structure.LuaTableFieldReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, "DataModel.structure.LuaTableReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade95480L, "DataModel.structure.Model"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5c3470L, "DataModel.structure.NumberReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6cebL, "DataModel.structure.NumberValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c6232afL, "DataModel.structure.ResourceItem"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c621007L, "DataModel.structure.ResourceMoney"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6cd9L, "DataModel.structure.StringValue"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c62ae88L, "DataModel.structure.ValueAssignment"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5bb032L, "DataModel.structure.ValueTransform"));
   private static final Map<SAbstractConcept, Integer> indices_xbvbvu_a0d = buildConceptIndices(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, "DataModel.structure.LuaTableReference"));
   private static String[] stringSwitchCases_xbvbvu_a0a0a0a3a0a3 = new String[]{"DataModel.editor.table_dot_op"};
 }

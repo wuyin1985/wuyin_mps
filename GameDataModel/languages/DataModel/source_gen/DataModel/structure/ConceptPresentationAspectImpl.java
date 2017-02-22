@@ -11,8 +11,10 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private final ConceptPresentation props_BoolValue = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ChildString = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_LuaTF = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_LuaTable = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_LuaTableField = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_LuaTableFieldReference = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_LuaTableReference = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Model = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_NumberReference = new ConceptPresentationBuilder().create();
@@ -35,30 +37,34 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case 1:
         return props_ChildString;
       case 2:
-        return props_LuaTable;
+        return props_LuaTF;
       case 3:
-        return props_LuaTableField;
+        return props_LuaTable;
       case 4:
-        return props_LuaTableReference;
+        return props_LuaTableField;
       case 5:
-        return props_Model;
+        return props_LuaTableFieldReference;
       case 6:
-        return props_NumberReference;
+        return props_LuaTableReference;
       case 7:
-        return props_NumberValue;
+        return props_Model;
       case 8:
-        return props_Resource;
+        return props_NumberReference;
       case 9:
-        return props_ResourceItem;
+        return props_NumberValue;
       case 10:
-        return props_ResourceMoney;
+        return props_Resource;
       case 11:
-        return props_StringValue;
+        return props_ResourceItem;
       case 12:
-        return props_Value;
+        return props_ResourceMoney;
       case 13:
-        return props_ValueAssignment;
+        return props_StringValue;
       case 14:
+        return props_Value;
+      case 15:
+        return props_ValueAssignment;
+      case 16:
         return props_ValueTransform;
     }
     throw new IllegalStateException("Unknown concept " + c);

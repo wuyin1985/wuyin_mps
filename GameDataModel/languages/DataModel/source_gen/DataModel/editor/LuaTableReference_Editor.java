@@ -15,10 +15,6 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.openapi.editor.style.Style;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class LuaTableReference_Editor extends DefaultNodeEditor {
@@ -30,9 +26,7 @@ public class LuaTableReference_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_fvzg8r_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_fvzg8r_a0(editorContext, node));
-    if (renderingCondition_fvzg8r_a1a(node, editorContext)) {
-      editorCell.addEditorCell(this.createCollection_fvzg8r_b0(editorContext, node));
-    }
+    editorCell.addEditorCell(this.createConstant_fvzg8r_b0(editorContext, node));
     return editorCell;
   }
   private EditorCell createRefCell_fvzg8r_a0(EditorContext editorContext, SNode node) {
@@ -82,73 +76,10 @@ public class LuaTableReference_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-  private EditorCell createCollection_fvzg8r_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_fvzg8r_b0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, 0, false);
-    editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(this.createConstant_fvzg8r_a1a(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_fvzg8r_b1a(editorContext, node));
-    return editorCell;
-  }
-  private static boolean renderingCondition_fvzg8r_a1a(SNode node, EditorContext editorContext) {
-    return SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, 0x54cd1444314d3817L, "field")) != null;
-  }
-  private EditorCell createConstant_fvzg8r_a1a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fvzg8r_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
-    editorCell.setCellId("Constant_fvzg8r_a1a");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
-    editorCell.getStyle().putAll(style);
+    editorCell.setCellId("Constant_fvzg8r_b0");
     editorCell.setDefaultText("");
     return editorCell;
-  }
-  private EditorCell createRefCell_fvzg8r_b1a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("field");
-    provider.setNoTargetText("<no field>");
-    EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new LuaTableReference_Editor._Inline_fvzg8r_a1b0());
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("field");
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    if (attributeConcept != null) {
-      EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
-      return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
-    } else
-    return editorCell;
-  }
-  public static class _Inline_fvzg8r_a1b0 extends InlineCellProvider {
-    public _Inline_fvzg8r_a1b0() {
-      super();
-    }
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_fvzg8r_a0b1a(editorContext, node);
-    }
-    private EditorCell createProperty_fvzg8r_a0b1a(EditorContext editorContext, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-      provider.setRole("name");
-      provider.setNoTargetText("<no name>");
-      provider.setReadOnly(true);
-      EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
-      editorCell.setCellId("property_name_1");
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      SNode attributeConcept = provider.getRoleAttribute();
-      if (attributeConcept != null) {
-        EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
-        return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
-      } else
-      return editorCell;
-    }
   }
 }

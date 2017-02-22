@@ -18,11 +18,13 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(15);
+  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(17);
   /*package*/ final ConceptDescriptor myConceptBoolValue = createDescriptorForBoolValue();
   /*package*/ final ConceptDescriptor myConceptChildString = createDescriptorForChildString();
+  /*package*/ final ConceptDescriptor myConceptLuaTF = createDescriptorForLuaTF();
   /*package*/ final ConceptDescriptor myConceptLuaTable = createDescriptorForLuaTable();
   /*package*/ final ConceptDescriptor myConceptLuaTableField = createDescriptorForLuaTableField();
+  /*package*/ final ConceptDescriptor myConceptLuaTableFieldReference = createDescriptorForLuaTableFieldReference();
   /*package*/ final ConceptDescriptor myConceptLuaTableReference = createDescriptorForLuaTableReference();
   /*package*/ final ConceptDescriptor myConceptModel = createDescriptorForModel();
   /*package*/ final ConceptDescriptor myConceptNumberReference = createDescriptorForNumberReference();
@@ -38,24 +40,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   public StructureAspectDescriptor() {
     myIndexMap.put(myConceptBoolValue.getId(), 0);
     myIndexMap.put(myConceptChildString.getId(), 1);
-    myIndexMap.put(myConceptLuaTable.getId(), 2);
-    myIndexMap.put(myConceptLuaTableField.getId(), 3);
-    myIndexMap.put(myConceptLuaTableReference.getId(), 4);
-    myIndexMap.put(myConceptModel.getId(), 5);
-    myIndexMap.put(myConceptNumberReference.getId(), 6);
-    myIndexMap.put(myConceptNumberValue.getId(), 7);
-    myIndexMap.put(myConceptResource.getId(), 8);
-    myIndexMap.put(myConceptResourceItem.getId(), 9);
-    myIndexMap.put(myConceptResourceMoney.getId(), 10);
-    myIndexMap.put(myConceptStringValue.getId(), 11);
-    myIndexMap.put(myConceptValue.getId(), 12);
-    myIndexMap.put(myConceptValueAssignment.getId(), 13);
-    myIndexMap.put(myConceptValueTransform.getId(), 14);
+    myIndexMap.put(myConceptLuaTF.getId(), 2);
+    myIndexMap.put(myConceptLuaTable.getId(), 3);
+    myIndexMap.put(myConceptLuaTableField.getId(), 4);
+    myIndexMap.put(myConceptLuaTableFieldReference.getId(), 5);
+    myIndexMap.put(myConceptLuaTableReference.getId(), 6);
+    myIndexMap.put(myConceptModel.getId(), 7);
+    myIndexMap.put(myConceptNumberReference.getId(), 8);
+    myIndexMap.put(myConceptNumberValue.getId(), 9);
+    myIndexMap.put(myConceptResource.getId(), 10);
+    myIndexMap.put(myConceptResourceItem.getId(), 11);
+    myIndexMap.put(myConceptResourceMoney.getId(), 12);
+    myIndexMap.put(myConceptStringValue.getId(), 13);
+    myIndexMap.put(myConceptValue.getId(), 14);
+    myIndexMap.put(myConceptValueAssignment.getId(), 15);
+    myIndexMap.put(myConceptValueTransform.getId(), 16);
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBoolValue, myConceptChildString, myConceptLuaTable, myConceptLuaTableField, myConceptLuaTableReference, myConceptModel, myConceptNumberReference, myConceptNumberValue, myConceptResource, myConceptResourceItem, myConceptResourceMoney, myConceptStringValue, myConceptValue, myConceptValueAssignment, myConceptValueTransform);
+    return Arrays.asList(myConceptBoolValue, myConceptChildString, myConceptLuaTF, myConceptLuaTable, myConceptLuaTableField, myConceptLuaTableFieldReference, myConceptLuaTableReference, myConceptModel, myConceptNumberReference, myConceptNumberValue, myConceptResource, myConceptResourceItem, myConceptResourceMoney, myConceptStringValue, myConceptValue, myConceptValueAssignment, myConceptValueTransform);
   }
 
   @Override
@@ -71,30 +75,34 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
       case 1:
         return myConceptChildString;
       case 2:
-        return myConceptLuaTable;
+        return myConceptLuaTF;
       case 3:
-        return myConceptLuaTableField;
+        return myConceptLuaTable;
       case 4:
-        return myConceptLuaTableReference;
+        return myConceptLuaTableField;
       case 5:
-        return myConceptModel;
+        return myConceptLuaTableFieldReference;
       case 6:
-        return myConceptNumberReference;
+        return myConceptLuaTableReference;
       case 7:
-        return myConceptNumberValue;
+        return myConceptModel;
       case 8:
-        return myConceptResource;
+        return myConceptNumberReference;
       case 9:
-        return myConceptResourceItem;
+        return myConceptNumberValue;
       case 10:
-        return myConceptResourceMoney;
+        return myConceptResource;
       case 11:
-        return myConceptStringValue;
+        return myConceptResourceItem;
       case 12:
-        return myConceptValue;
+        return myConceptResourceMoney;
       case 13:
-        return myConceptValueAssignment;
+        return myConceptStringValue;
       case 14:
+        return myConceptValue;
+      case 15:
+        return myConceptValueAssignment;
+      case 16:
         return myConceptValueTransform;
       default:
         throw new IllegalStateException();
@@ -117,17 +125,23 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForChildString() {
     return new ConceptDescriptorBuilder("DataModel.structure.ChildString", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eecbbbfL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(0x7c563eb53eecc5c9L, "value", new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865887689"))).properties("value").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865885119")).create();
   }
+  private static ConceptDescriptor createDescriptorForLuaTF() {
+    return new ConceptDescriptorBuilder("DataModel.structure.LuaTF", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456b4f8c5L)).super_("jetbrains.mps.baseLanguage.structure.Expression").version(1).super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).parents("jetbrains.mps.baseLanguage.structure.Expression").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x123e4f2456b4f8c6L, "table", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), true, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730881222")), new ConceptDescriptorBuilder.Ref(0x123e4f2456b4f8c8L, "field", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L), true, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730881224"))).references("table", "field").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730881221")).create();
+  }
   private static ConceptDescriptor createDescriptorForLuaTable() {
     return new ConceptDescriptorBuilder("DataModel.structure.LuaTable", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).propertyDescriptors(new ConceptDescriptorBuilder.Prop(0x7cbec709645ceee2L, "tableName", new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8988840749430533858"))).properties("tableName").childDescriptors(new ConceptDescriptorBuilder.Link(0x7c563eb53eec1660L, "keys", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eecbbbfL), false, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865842784")), new ConceptDescriptorBuilder.Link(0x6a9d6b2bd5de761aL, "fields", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "7682414375379826202"))).children(new String[]{"keys", "fields"}, new boolean[]{true, true}).sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865842766")).create();
   }
   private static ConceptDescriptor createDescriptorForLuaTableField() {
     return new ConceptDescriptorBuilder("DataModel.structure.LuaTableField", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8987713541764300294")).create();
   }
+  private static ConceptDescriptor createDescriptorForLuaTableFieldReference() {
+    return new ConceptDescriptorBuilder("DataModel.structure.LuaTableFieldReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456addc56L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x123e4f2456addc57L, "luaTableField", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L), true, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730415191"))).references("luaTableField").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730415190")).create();
+  }
   private static ConceptDescriptor createDescriptorForLuaTableReference() {
-    return new ConceptDescriptorBuilder("DataModel.structure.LuaTableReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL)).super_("jetbrains.mps.baseLanguage.structure.Expression").version(1).super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).parents("jetbrains.mps.baseLanguage.structure.Expression").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x7e250666cd08026dL, "table", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499245")), new ConceptDescriptorBuilder.Ref(0x54cd1444314d3817L, "field", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L), true, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "6110562552529106967"))).references("table", "field").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499244")).create();
+    return new ConceptDescriptorBuilder("DataModel.structure.LuaTableReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL)).super_("jetbrains.mps.baseLanguage.structure.Expression").version(1).super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).parents("jetbrains.mps.baseLanguage.structure.Expression").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x7e250666cd08026dL, "table", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499245"))).references("table").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499244")).create();
   }
   private static ConceptDescriptor createDescriptorForModel() {
-    return new ConceptDescriptorBuilder("DataModel.structure.Model", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade95480L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x771d1e0eade95501L, "values", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade9555dL), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8583049513234158849")), new ConceptDescriptorBuilder.Link(0x7c563eb53eec3e07L, "tables", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865852935")), new ConceptDescriptorBuilder.Link(0x7e59491b2c5c34d9L, "transform", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5bb032L), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9104388502763353305"))).children(new String[]{"values", "tables", "transform"}, new boolean[]{true, true, true}).rootable().sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8583049513234158720")).create();
+    return new ConceptDescriptorBuilder("DataModel.structure.Model", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade95480L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).childDescriptors(new ConceptDescriptorBuilder.Link(0x771d1e0eade95501L, "values", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade9555dL), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8583049513234158849")), new ConceptDescriptorBuilder.Link(0x7c563eb53eec3e07L, "tables", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8959417456865852935")), new ConceptDescriptorBuilder.Link(0x7e59491b2c5c34d9L, "transform", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5bb032L), true, true, false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9104388502763353305"))).children(new String[]{"values", "tables", "transform"}, new boolean[]{true, true, true}).rootable().sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8583049513234158720")).create();
   }
   private static ConceptDescriptor createDescriptorForNumberReference() {
     return new ConceptDescriptorBuilder("DataModel.structure.NumberReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5c3470L)).super_("jetbrains.mps.baseLanguage.structure.Expression").version(1).super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).parents("jetbrains.mps.baseLanguage.structure.Expression").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x7e59491b2c5c348cL, "value", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eadea6cebL), false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9104388502763353228"))).references("value").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9104388502763353200")).create();
