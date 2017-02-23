@@ -126,13 +126,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7TpihGGowZW" resolve="Resource" />
     </node>
-    <node concept="1TJgyj" id="7TpihGGn3jd" role="1TKVEi">
-      <property role="IQ2ns" value="9104388502763353293" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="result" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7TpihGGoEU8" resolve="ValueAssignment" />
-    </node>
     <node concept="PrWs8" id="7LmfFkYTT3G" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

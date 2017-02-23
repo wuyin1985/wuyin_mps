@@ -24,9 +24,6 @@
     <file name="LuaTF_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="DataModel.behavior.LuaTF_BehaviorDescriptor" />
     </file>
-    <file name="LuaTableFieldReference_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="DataModel.behavior.LuaTableFieldReference_BehaviorDescriptor" />
-    </file>
     <file name="LuaTableField_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="DataModel.behavior.LuaTableField_BehaviorDescriptor" />
     </file>

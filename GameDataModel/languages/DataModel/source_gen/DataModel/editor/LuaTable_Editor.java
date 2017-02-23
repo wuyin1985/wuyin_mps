@@ -12,6 +12,8 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.openapi.editor.style.StyleRegistry;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -26,8 +28,6 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.OldNewCompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.editor.runtime.style.TableComponent;
 
 public class LuaTable_Editor extends DefaultNodeEditor {
@@ -74,6 +74,9 @@ public class LuaTable_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.magenta));
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     if (attributeConcept != null) {
@@ -95,7 +98,7 @@ public class LuaTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_dkflor_d0a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "path:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "表格名:");
     editorCell.setCellId("Constant_dkflor_d0a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -116,7 +119,7 @@ public class LuaTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_dkflor_f0a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "keys:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "索引:");
     editorCell.setCellId("Constant_dkflor_f0a0");
     editorCell.setDefaultText("");
     return editorCell;

@@ -25,7 +25,7 @@ public class StringValue_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_iizcdy_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "string:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "字符:");
     editorCell.setCellId("Constant_iizcdy_a0");
     editorCell.setDefaultText("");
     return editorCell;

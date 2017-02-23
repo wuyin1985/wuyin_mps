@@ -37,7 +37,7 @@ public class ResourceMoney_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_pgomn1_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "money");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "货币类型:");
     editorCell.setCellId("Constant_pgomn1_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -58,7 +58,7 @@ public class ResourceMoney_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_pgomn1_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "num:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "数量:");
     editorCell.setCellId("Constant_pgomn1_c0");
     editorCell.setDefaultText("");
     return editorCell;

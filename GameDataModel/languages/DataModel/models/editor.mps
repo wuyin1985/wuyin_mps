@@ -24,6 +24,7 @@
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -31,6 +32,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="709996738298806197" name="jetbrains.mps.lang.editor.structure.QueryFunction_SeparatorText" flags="in" index="2o9xnK" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -219,7 +221,7 @@
     <ref role="1XX52x" to="f1hy:7st7wUHUANp" resolve="StringValue" />
     <node concept="3EZMnI" id="7st7wUHUH5S" role="2wV5jI">
       <node concept="3F0ifn" id="7st7wUHUH62" role="3EZMnx">
-        <property role="3F0ifm" value="string:" />
+        <property role="3F0ifm" value="字符:" />
       </node>
       <node concept="3F0A7n" id="7st7wUHUNtj" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -231,7 +233,7 @@
     <ref role="1XX52x" to="f1hy:7st7wUHUAO1" resolve="BoolValue" />
     <node concept="3EZMnI" id="7st7wUHULQP" role="2wV5jI">
       <node concept="3F0ifn" id="7st7wUHULQZ" role="3EZMnx">
-        <property role="3F0ifm" value="bool:" />
+        <property role="3F0ifm" value="布尔型:" />
       </node>
       <node concept="3F0A7n" id="7st7wUHUNtH" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -243,10 +245,13 @@
     <ref role="1XX52x" to="f1hy:7st7wUHUANF" resolve="NumberValue" />
     <node concept="3EZMnI" id="7st7wUHUOWh" role="2wV5jI">
       <node concept="3F0ifn" id="7st7wUHUOWr" role="3EZMnx">
-        <property role="3F0ifm" value="number:" />
+        <property role="3F0ifm" value="数值:" />
       </node>
       <node concept="3F0A7n" id="7st7wUHUP5s" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VechU" id="6RpykZ3qcPt" role="3F10Kt">
+          <property role="Vb096" value="DARK_GREEN" />
+        </node>
       </node>
       <node concept="l2Vlx" id="7st7wUHUOWk" role="2iSdaV" />
     </node>
@@ -259,6 +264,9 @@
         <node concept="3F0A7n" id="7TpihGGnIRC" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="VechU" id="6RpykZ3qcRd" role="3F10Kt">
+            <property role="Vb096" value="DARK_GREEN" />
+          </node>
         </node>
       </node>
     </node>
@@ -272,7 +280,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="7LmfFkYUuKv" role="3EZMnx">
-          <property role="3F0ifm" value="name:" />
+          <property role="3F0ifm" value="名称:" />
         </node>
         <node concept="3F0A7n" id="7LmfFkYUuKK" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -284,7 +292,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="7LmfFkYUuLJ" role="3EZMnx">
-          <property role="3F0ifm" value="check:" />
+          <property role="3F0ifm" value="条件:" />
           <node concept="ljvvj" id="7LmfFkYUuO$" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -315,7 +323,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="7LmfFkYU_Ko" role="3EZMnx">
-          <property role="3F0ifm" value="cost:" />
+          <property role="3F0ifm" value="消耗:" />
           <node concept="ljvvj" id="7LmfFkYU_MP" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -341,50 +349,19 @@
         </node>
         <node concept="l2Vlx" id="7LmfFkYU_Kp" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="7LmfFkYU_TX" role="3EZMnx">
-        <node concept="VPM3Z" id="7LmfFkYU_TZ" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="7LmfFkYU_U1" role="3EZMnx">
-          <property role="3F0ifm" value="result:" />
-          <node concept="ljvvj" id="7LmfFkYU_WA" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="7LmfFkYUBol" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3EZMnI" id="7LmfFkYUEkq" role="3EZMnx">
-          <node concept="VPM3Z" id="7LmfFkYUEks" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-          <node concept="lj46D" id="7LmfFkYUEmS" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F2HdR" id="7LmfFkYU_WK" role="3EZMnx">
-            <ref role="1NtTu8" to="f1hy:7TpihGGn3jd" resolve="result" />
-            <node concept="2iRkQZ" id="7LmfFkYU_WV" role="2czzBx" />
-            <node concept="lj46D" id="7LmfFkYU_YD" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="l2Vlx" id="7LmfFkYUEkv" role="2iSdaV" />
-        </node>
-        <node concept="l2Vlx" id="7LmfFkYU_U2" role="2iSdaV" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7TpihGGoxDu">
     <ref role="1XX52x" to="f1hy:7TpihGGox07" resolve="ResourceMoney" />
     <node concept="3EZMnI" id="7TpihGGoxDN" role="2wV5jI">
       <node concept="3F0ifn" id="7TpihGGoxDX" role="3EZMnx">
-        <property role="3F0ifm" value="money" />
+        <property role="3F0ifm" value="货币类型:" />
       </node>
       <node concept="3F0A7n" id="7TpihGGoxEp" role="3EZMnx">
         <ref role="1NtTu8" to="f1hy:7TpihGGoxEm" resolve="type" />
       </node>
       <node concept="3F0ifn" id="7TpihGGoCDI" role="3EZMnx">
-        <property role="3F0ifm" value="num:" />
+        <property role="3F0ifm" value="数量:" />
       </node>
       <node concept="3F1sOY" id="7TpihGGozaD" role="3EZMnx">
         <ref role="1NtTu8" to="f1hy:7TpihGGozav" resolve="num" />
@@ -396,13 +373,13 @@
     <ref role="1XX52x" to="f1hy:7TpihGGozaJ" resolve="ResourceItem" />
     <node concept="3EZMnI" id="7TpihGGoCDQ" role="2wV5jI">
       <node concept="3F0ifn" id="7TpihGGoCDX" role="3EZMnx">
-        <property role="3F0ifm" value="item" />
+        <property role="3F0ifm" value="道具id:" />
       </node>
       <node concept="3F0A7n" id="7TpihGGoCE3" role="3EZMnx">
         <ref role="1NtTu8" to="f1hy:7TpihGGozaK" resolve="id" />
       </node>
       <node concept="3F0ifn" id="7TpihGGoCEb" role="3EZMnx">
-        <property role="3F0ifm" value="num:" />
+        <property role="3F0ifm" value="数量:" />
       </node>
       <node concept="3F1sOY" id="7TpihGGoCEl" role="3EZMnx">
         <ref role="1NtTu8" to="f1hy:7TpihGGozav" resolve="num" />
@@ -439,7 +416,7 @@
       </node>
       <node concept="3F0ifn" id="7LmfFkYUgta" role="3EZMnx" />
       <node concept="3F0ifn" id="7LmfFkYUgtf" role="3EZMnx">
-        <property role="3F0ifm" value="values:" />
+        <property role="3F0ifm" value="屬性:" />
       </node>
       <node concept="3EZMnI" id="7LmfFkYUHel" role="3EZMnx">
         <node concept="VPM3Z" id="7LmfFkYUHen" role="3F10Kt">
@@ -456,7 +433,7 @@
       </node>
       <node concept="3F0ifn" id="7LmfFkYUgtG" role="3EZMnx" />
       <node concept="3F0ifn" id="7LmfFkYV3Tl" role="3EZMnx">
-        <property role="3F0ifm" value="tables:" />
+        <property role="3F0ifm" value="表格:" />
       </node>
       <node concept="3EZMnI" id="7LmfFkYV3Va" role="3EZMnx">
         <node concept="VPM3Z" id="7LmfFkYV3Vc" role="3F10Kt">
@@ -473,7 +450,7 @@
       </node>
       <node concept="3F0ifn" id="18YjMhmFm29" role="3EZMnx" />
       <node concept="3F0ifn" id="7LmfFkYUgtT" role="3EZMnx">
-        <property role="3F0ifm" value="transforms:" />
+        <property role="3F0ifm" value="成長:" />
       </node>
       <node concept="3EZMnI" id="7LmfFkYUKai" role="3EZMnx">
         <node concept="VPM3Z" id="7LmfFkYUKak" role="3F10Kt">
@@ -484,6 +461,15 @@
           <node concept="2iRkQZ" id="7LmfFkYUgur" role="2czzBx" />
           <node concept="lj46D" id="7LmfFkYUKd9" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2o9xnK" id="6RpykZ3pMH2" role="2gpyvW">
+            <node concept="3clFbS" id="6RpykZ3pMH3" role="2VODD2">
+              <node concept="3clFbF" id="6RpykZ3pNLN" role="3cqZAp">
+                <node concept="Xl_RD" id="6RpykZ3pNLM" role="3clFbG">
+                  <property role="Xl_RC" value="----------------------------" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="l2Vlx" id="7LmfFkYUKan" role="2iSdaV" />
@@ -501,6 +487,9 @@
         <node concept="3EZMnI" id="7MYLK_$tdlw" role="3EZMnx">
           <node concept="3F0A7n" id="7MULtzBPMQN" role="3EZMnx">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="VechU" id="6RpykZ3q8MQ" role="3F10Kt">
+              <property role="Vb096" value="magenta" />
+            </node>
           </node>
           <node concept="3F0ifn" id="7MULtzBPMR7" role="3EZMnx">
             <property role="3F0ifm" value="=" />
@@ -512,13 +501,13 @@
             <property role="3F0ifm" value="(" />
           </node>
           <node concept="3F0ifn" id="7LmfFkYViNf" role="3EZMnx">
-            <property role="3F0ifm" value="path:" />
+            <property role="3F0ifm" value="表格名:" />
           </node>
           <node concept="3F0A7n" id="7MYLK_$neVU" role="3EZMnx">
             <ref role="1NtTu8" to="f1hy:7MYLK_$neVy" resolve="tableName" />
           </node>
           <node concept="3F0ifn" id="7LmfFkYViNC" role="3EZMnx">
-            <property role="3F0ifm" value="keys:" />
+            <property role="3F0ifm" value="索引:" />
           </node>
           <node concept="3F2HdR" id="7LmfFkYV1qf" role="3EZMnx">
             <ref role="1NtTu8" to="f1hy:7LmfFkYV1pw" resolve="keys" />
@@ -788,6 +777,9 @@
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
+        </node>
+        <node concept="VechU" id="6RpykZ3q0Kd" role="3F10Kt">
+          <property role="Vb096" value="magenta" />
         </node>
       </node>
       <node concept="3F0ifn" id="18YjMhmHf$b" role="3EZMnx">

@@ -37,7 +37,7 @@ public class ResourceItem_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_dk45n9_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "item");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "道具id:");
     editorCell.setCellId("Constant_dk45n9_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -58,7 +58,7 @@ public class ResourceItem_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_dk45n9_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "num:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "数量:");
     editorCell.setCellId("Constant_dk45n9_c0");
     editorCell.setDefaultText("");
     return editorCell;

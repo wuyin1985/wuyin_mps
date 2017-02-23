@@ -24,10 +24,6 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
-  <dependency className="DataModel.behavior.LuaTableFieldReference_BehaviorDescriptor" file="LuaTableFieldReference_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-  </dependency>
   <dependency className="DataModel.behavior.LuaTableField_BehaviorDescriptor" file="LuaTableField_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />

@@ -69,7 +69,7 @@ public class Model_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_pyq9q9_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "values:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "屬性:");
     editorCell.setCellId("Constant_pyq9q9_c0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -147,7 +147,7 @@ public class Model_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_pyq9q9_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "tables:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "表格:");
     editorCell.setCellId("Constant_pyq9q9_f0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -225,7 +225,7 @@ public class Model_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private EditorCell createConstant_pyq9q9_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "transforms:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "成長:");
     editorCell.setCellId("Constant_pyq9q9_i0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -256,6 +256,9 @@ public class Model_Editor extends DefaultNodeEditor {
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
+    }
+    private String getSeparatorText(EditorContext context, SNode node) {
+      return "----------------------------";
     }
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       editorContext.getCellFactory().pushCellContext();
@@ -294,6 +297,18 @@ public class Model_Editor extends DefaultNodeEditor {
           elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x771d1e0eade95480L, 0x7e59491b2c5c34d9L, "transform"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
         }
       }
+    }
+    @Override
+    public EditorCell createSeparatorCell(EditorContext editorContext, SNode prevNode, SNode nextNode) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), transformListHandler_pyq9q9_a9a.this.getSeparatorText(editorContext, prevNode));
+      editorCell.setSelectable(false);
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "");
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      editorCell.getStyle().putAll(style);
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(prevNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(prevNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
+      return editorCell;
     }
   }
 }
