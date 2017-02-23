@@ -272,18 +272,6 @@
       <ref role="20lvS9" node="7LmfFkYV1pe" resolve="LuaTable" />
     </node>
   </node>
-  <node concept="1TIwiD" id="18YjMhmFtLm">
-    <property role="EcuMT" value="1314575158730415190" />
-    <property role="TrG5h" value="LuaTableFieldReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="18YjMhmFtLn" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="0..1" />
-      <property role="IQ2ns" value="1314575158730415191" />
-      <property role="20kJfa" value="luaTableField" />
-      <ref role="20lvS9" node="7MULtzBP3S6" resolve="LuaTableField" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="18YjMhmHfz5">
     <property role="EcuMT" value="1314575158730881221" />
     <property role="TrG5h" value="LuaTF" />

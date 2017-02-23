@@ -158,6 +158,7 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -172,6 +173,10 @@
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -591,9 +596,6 @@
           <ref role="A1WHt" node="51bTEcwJbzg" resolve="table_dot_op" />
         </node>
       </node>
-      <node concept="3F0ifn" id="51bTEcwJZqG" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-      </node>
       <node concept="l2Vlx" id="51bTEcwJhmy" role="2iSdaV" />
     </node>
   </node>
@@ -675,8 +677,16 @@
             <node concept="1hCUdq" id="51bTEcwJDh4" role="1hCUd6">
               <node concept="3clFbS" id="51bTEcwJDh6" role="2VODD2">
                 <node concept="3clFbF" id="51bTEcwJDyT" role="3cqZAp">
-                  <node concept="Xl_RD" id="51bTEcwLrtG" role="3clFbG">
-                    <property role="Xl_RC" value="." />
+                  <node concept="3cpWs3" id="nSgJ71NVvG" role="3clFbG">
+                    <node concept="2OqwBi" id="nSgJ71NW87" role="3uHU7w">
+                      <node concept="2ZBlsa" id="nSgJ71NVCl" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="nSgJ71NWrg" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="51bTEcwLrtG" role="3uHU7B">
+                      <property role="Xl_RC" value="." />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -764,18 +774,6 @@
       <node concept="3cWJ9i" id="51bTEcwJbzn" role="1Qtc8$">
         <node concept="CtIbL" id="51bTEcwJbzp" role="CtIbM">
           <property role="CtIbK" value="RIGHT" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="18YjMhmFtLo">
-    <ref role="1XX52x" to="f1hy:18YjMhmFtLm" resolve="LuaTableFieldReference" />
-    <node concept="1iCGBv" id="18YjMhmFtLp" role="2wV5jI">
-      <ref role="1NtTu8" to="f1hy:18YjMhmFtLn" resolve="luaTableField" />
-      <node concept="1sVBvm" id="18YjMhmFtLq" role="1sWHZn">
-        <node concept="3F0A7n" id="18YjMhmFtLr" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

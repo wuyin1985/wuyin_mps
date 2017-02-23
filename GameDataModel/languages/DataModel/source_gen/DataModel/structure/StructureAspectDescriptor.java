@@ -18,13 +18,12 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(17);
+  private final Map<SConceptId, Integer> myIndexMap = new HashMap<SConceptId, Integer>(16);
   /*package*/ final ConceptDescriptor myConceptBoolValue = createDescriptorForBoolValue();
   /*package*/ final ConceptDescriptor myConceptChildString = createDescriptorForChildString();
   /*package*/ final ConceptDescriptor myConceptLuaTF = createDescriptorForLuaTF();
   /*package*/ final ConceptDescriptor myConceptLuaTable = createDescriptorForLuaTable();
   /*package*/ final ConceptDescriptor myConceptLuaTableField = createDescriptorForLuaTableField();
-  /*package*/ final ConceptDescriptor myConceptLuaTableFieldReference = createDescriptorForLuaTableFieldReference();
   /*package*/ final ConceptDescriptor myConceptLuaTableReference = createDescriptorForLuaTableReference();
   /*package*/ final ConceptDescriptor myConceptModel = createDescriptorForModel();
   /*package*/ final ConceptDescriptor myConceptNumberReference = createDescriptorForNumberReference();
@@ -43,23 +42,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     myIndexMap.put(myConceptLuaTF.getId(), 2);
     myIndexMap.put(myConceptLuaTable.getId(), 3);
     myIndexMap.put(myConceptLuaTableField.getId(), 4);
-    myIndexMap.put(myConceptLuaTableFieldReference.getId(), 5);
-    myIndexMap.put(myConceptLuaTableReference.getId(), 6);
-    myIndexMap.put(myConceptModel.getId(), 7);
-    myIndexMap.put(myConceptNumberReference.getId(), 8);
-    myIndexMap.put(myConceptNumberValue.getId(), 9);
-    myIndexMap.put(myConceptResource.getId(), 10);
-    myIndexMap.put(myConceptResourceItem.getId(), 11);
-    myIndexMap.put(myConceptResourceMoney.getId(), 12);
-    myIndexMap.put(myConceptStringValue.getId(), 13);
-    myIndexMap.put(myConceptValue.getId(), 14);
-    myIndexMap.put(myConceptValueAssignment.getId(), 15);
-    myIndexMap.put(myConceptValueTransform.getId(), 16);
+    myIndexMap.put(myConceptLuaTableReference.getId(), 5);
+    myIndexMap.put(myConceptModel.getId(), 6);
+    myIndexMap.put(myConceptNumberReference.getId(), 7);
+    myIndexMap.put(myConceptNumberValue.getId(), 8);
+    myIndexMap.put(myConceptResource.getId(), 9);
+    myIndexMap.put(myConceptResourceItem.getId(), 10);
+    myIndexMap.put(myConceptResourceMoney.getId(), 11);
+    myIndexMap.put(myConceptStringValue.getId(), 12);
+    myIndexMap.put(myConceptValue.getId(), 13);
+    myIndexMap.put(myConceptValueAssignment.getId(), 14);
+    myIndexMap.put(myConceptValueTransform.getId(), 15);
   }
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBoolValue, myConceptChildString, myConceptLuaTF, myConceptLuaTable, myConceptLuaTableField, myConceptLuaTableFieldReference, myConceptLuaTableReference, myConceptModel, myConceptNumberReference, myConceptNumberValue, myConceptResource, myConceptResourceItem, myConceptResourceMoney, myConceptStringValue, myConceptValue, myConceptValueAssignment, myConceptValueTransform);
+    return Arrays.asList(myConceptBoolValue, myConceptChildString, myConceptLuaTF, myConceptLuaTable, myConceptLuaTableField, myConceptLuaTableReference, myConceptModel, myConceptNumberReference, myConceptNumberValue, myConceptResource, myConceptResourceItem, myConceptResourceMoney, myConceptStringValue, myConceptValue, myConceptValueAssignment, myConceptValueTransform);
   }
 
   @Override
@@ -81,28 +79,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
       case 4:
         return myConceptLuaTableField;
       case 5:
-        return myConceptLuaTableFieldReference;
-      case 6:
         return myConceptLuaTableReference;
-      case 7:
+      case 6:
         return myConceptModel;
-      case 8:
+      case 7:
         return myConceptNumberReference;
-      case 9:
+      case 8:
         return myConceptNumberValue;
-      case 10:
+      case 9:
         return myConceptResource;
-      case 11:
+      case 10:
         return myConceptResourceItem;
-      case 12:
+      case 11:
         return myConceptResourceMoney;
-      case 13:
+      case 12:
         return myConceptStringValue;
-      case 14:
+      case 13:
         return myConceptValue;
-      case 15:
+      case 14:
         return myConceptValueAssignment;
-      case 16:
+      case 15:
         return myConceptValueTransform;
       default:
         throw new IllegalStateException();
@@ -133,9 +129,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForLuaTableField() {
     return new ConceptDescriptorBuilder("DataModel.structure.LuaTableField", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL), MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L)).sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "8987713541764300294")).create();
-  }
-  private static ConceptDescriptor createDescriptorForLuaTableFieldReference() {
-    return new ConceptDescriptorBuilder("DataModel.structure.LuaTableFieldReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x123e4f2456addc56L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").version(1).super_(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).parents("jetbrains.mps.lang.core.structure.BaseConcept").parentIds(MetaIdFactory.conceptId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x123e4f2456addc57L, "luaTableField", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7cbac5d8e7d43e06L), true, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730415191"))).references("luaTableField").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "1314575158730415190")).create();
   }
   private static ConceptDescriptor createDescriptorForLuaTableReference() {
     return new ConceptDescriptorBuilder("DataModel.structure.LuaTableReference", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL)).super_("jetbrains.mps.baseLanguage.structure.Expression").version(1).super_(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).parents("jetbrains.mps.baseLanguage.structure.Expression").parentIds(MetaIdFactory.conceptId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL)).referenceDescriptors(new ConceptDescriptorBuilder.Ref(0x7e250666cd08026dL, "table", MetaIdFactory.conceptId(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL), false, new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499245"))).references("table").sourceNode(new SNodePointer("r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)", "9089678461513499244")).create();

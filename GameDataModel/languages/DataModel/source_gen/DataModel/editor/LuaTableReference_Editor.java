@@ -15,7 +15,9 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 public class LuaTableReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -26,7 +28,6 @@ public class LuaTableReference_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_fvzg8r_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_fvzg8r_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_fvzg8r_b0(editorContext, node));
     return editorCell;
   }
   private EditorCell createRefCell_fvzg8r_a0(EditorContext editorContext, SNode node) {
@@ -67,6 +68,9 @@ public class LuaTableReference_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.AUTO_DELETABLE, 0, true);
+      editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       if (attributeConcept != null) {
@@ -75,11 +79,5 @@ public class LuaTableReference_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-  }
-  private EditorCell createConstant_fvzg8r_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
-    editorCell.setCellId("Constant_fvzg8r_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
   }
 }

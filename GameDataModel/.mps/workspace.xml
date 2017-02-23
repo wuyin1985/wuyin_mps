@@ -22,7 +22,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="72928411-7ae2-4499-b3d5-86dfbb9bf1b7/r:3b0d91d5-0064-4342-b2ba-b0234c746856(TempModule72928411-7ae2-4499-b3d5-86dfbb9bf1b7/TempModel_12523711280302)">
+            <model ref="a6562d54-3806-48ab-9ac0-80159db64cc5/r:4a619880-a2e1-49e7-b7c0-172579ebdf58(TempModulea6562d54-3806-48ab-9ac0-80159db64cc5/TempModel_69783956214)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -52,9 +52,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="18YjMhmGRlP">
-                <node concept="3balQm" id="18YjMhmGRlQ" role="aymYE" />
-                <node concept="2Clz$F" id="18YjMhmGRlR" role="aymYO">
+              <node concept="aymSD" id="nSgJ71N8zp">
+                <node concept="3balQm" id="nSgJ71N8zq" role="aymYE" />
+                <node concept="2Clz$F" id="nSgJ71N8zr" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -103,7 +103,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -158,7 +158,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -175,15 +175,15 @@
         <entry file="mps://node://DataModel/DataModel.structure/LuaTableReference">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="207">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="111" />
+                    <property name="caretX" value="327" />
                     <property name="caretXRelative" value="32" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/1314575158731011744" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/430167370520053456" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -234,17 +234,17 @@
                 <restoreAlways>
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590943265" />
+                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590952516" />
                     </cellIdElement>
                   </collapsedElement>
                   <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_x4c5fc_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590942621" />
+                    <cellIdElement cellId="Collection_zg23bd_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590952514" />
                     </cellIdElement>
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -265,11 +265,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="391" />
+                    <property name="caretXRelative" value="112" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" />
+                    <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -282,7 +282,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -290,40 +290,6 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LuaTableFieldReference" pinned="false" current-in-tab="false">
-        <entry file="mps://node://DataModel/DataModel.structure/LuaTableFieldReference">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" />
             </state>
           </provider>
         </entry>
@@ -349,7 +315,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -383,7 +349,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -417,7 +383,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -451,7 +417,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730694846" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -566,10 +532,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
       <pane id="Favorites" />
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/GameModels/GameModels.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -581,96 +557,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:8ecc8b77-ef49-49a6-9bd3-357f187911dc(DataModel.behavior) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/behavior.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/GameModels/GameModels.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GameModels" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4bd55822-0fa2-46e5-9237-7f686a4fe245(DataModel.actions) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/actions.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all models" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all models" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/editor.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/editor.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,20 +584,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/structure.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/GameModels/GameModels.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -730,13 +602,109 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/structure.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/editor.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all models" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/languages/DataModel/models/editor.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0a61bdb2-ea74-48de-8523-7d716d56eee2(DataModel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/GameModels/GameModels.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameModels" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/GameModels/GameModels.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameModels" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox) in IdeaFile{file:///Users/wuyin/Documents/github/wuyin_mps/GameDataModel/solutions/GameModels/models/GameModels/sandbox.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1314575158730694818" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -794,7 +762,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27684346" sideWeight="0.43046874" order="7" side_tool="false" content_ui="tabs" />
@@ -805,12 +773,12 @@
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31953427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46701163" sideWeight="0.5882813" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46701163" sideWeight="0.590625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46701163" sideWeight="0.41171876" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46701163" sideWeight="0.409375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -819,7 +787,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -850,75 +818,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://DataModel/DataModel.structure/Model">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="283" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/9104388502763353305" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730775873" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8583049513234158720" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://GameModels/GameModels.sandbox/hero">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Custom_1ltshm_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730671922" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="property_value" cellNumber="0" isInList="false">
-                <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730382128" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="false" cellId="Custom_1ltshm_a0" cellNumber="0" isInList="false">
-                <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730671922" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730671922" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://GameModels/GameModels.sandbox/&lt;no name&gt;[Model]" />
     <entry file="mps://node://GameModels/GameModels.sandbox/&lt;no name&gt;[Model]" />
     <entry file="mps://node://GameModels/GameModels.sandbox/hero">
@@ -987,37 +886,6 @@
             <restoreAlways />
           </inspectorMemento>
           <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8583049513234230507" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/NumberReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="203" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/9104388502763353228" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158730775873" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/9104388502763353200" />
         </state>
       </provider>
     </entry>
@@ -1895,78 +1763,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
-                <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-              </errorMarker>
-            </errorMarkers>
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730881221" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://DataModel/DataModel.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://DataModel/DataModel.structure/LuaTableReference">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
@@ -2236,59 +2034,6 @@
             <restoreAlways />
           </memento>
           <inspectorMemento currentlyEditedNode="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/LuaTable">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="247" />
-                <property name="caretXRelative" value="68" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749431446052" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_msf9u8_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749431446050" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563139" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430614000" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:614cc697-9fe7-452b-9cb7-884468a00f57(DataModel.typesystem)/1314575158730954788" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2587,7 +2332,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8987713541764300294" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2631,38 +2376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/LuaTableField">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="111" />
-                <property name="caretXRelative" value="36" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8987713541764300294" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8987713541764300294" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://DataModel/DataModel.structure/LuaTableFieldReference">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2684,38 +2397,6 @@
             <restoreAlways />
           </memento>
           <inspectorMemento currentlyEditedNode="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/LuaTableFieldReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/1314575158730415190" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734591043244" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2759,7 +2440,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://DataModel/DataModel.structure/LuaTableReference">
+    <entry file="mps://node://DataModel/DataModel.structure/ChildString">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="76" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8959417456865885119" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8959417456865885119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/LuaTableField">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
@@ -2767,10 +2480,166 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretX" value="111" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8987713541764300294" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/8987713541764300294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/NumberReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="203" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/9104388502763353228" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4a1e5cde-b36a-48af-8ad2-ac08d32e032f(DataModel.structure)/9104388502763353200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/StringValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="335" />
+                <property name="caretXRelative" value="92" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/8583049513234255095" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/8583049513234255095" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/LuaTableFieldReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <node />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/LuaTable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="68" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749431446052" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_msf9u8_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749431446050" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563139" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430614000" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:322193e7-d1cb-4656-9df7-20e3b146effd(DataModel.constraints)/8988840749430563136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://DataModel/DataModel.structure/LuaTableReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="207">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="327" />
                 <property name="caretXRelative" value="32" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/1314575158731011744" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/430167370520053456" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2821,17 +2690,17 @@
             <restoreAlways>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590943265" />
+                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590952516" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_x4c5fc_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590942621" />
+                <cellIdElement cellId="Collection_zg23bd_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:2def118c-44c5-48d2-aeb3-07fef704c393(DataModel.editor)/5785971734590952514" />
                 </cellIdElement>
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158731002280" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2850,11 +2719,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="271" />
-                <property name="caretXRelative" value="60" />
+                <property name="caretX" value="391" />
+                <property name="caretXRelative" value="112" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158731002280" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2867,7 +2736,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/1314575158731002280" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:881f30a8-310a-431b-bf2a-842eb7af8dd1(GameModels.sandbox)/430167370520073474" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
