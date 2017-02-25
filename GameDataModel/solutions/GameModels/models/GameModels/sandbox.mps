@@ -177,5 +177,47 @@
       <property role="TrG5h" value="atk" />
     </node>
   </node>
+  <node concept="3qX4Ee" id="475ninxEl8e">
+    <property role="TrG5h" value="weapon" />
+    <node concept="1i0J$D" id="475ninxEl8X" role="1i1nR2">
+      <property role="TrG5h" value="weapon_level" />
+      <node concept="3clFbC" id="475ninxFhe5" role="1i1nRf">
+        <node concept="3cmrfG" id="475ninxFhen" role="3uHU7w">
+          <property role="3cmrfH" value="1" />
+        </node>
+        <node concept="1i1nPF" id="475ninxFgzW" role="3uHU7B">
+          <ref role="1i1nQn" node="475ninxEl8f" resolve="weapon_atk" />
+        </node>
+      </node>
+    </node>
+    <node concept="12IyzV" id="475ninxEl8h" role="12Iw2M">
+      <property role="TrG5h" value="weapon_level" />
+      <property role="oSyBF" value="arts.force" />
+      <node concept="12ICka" id="475ninxEl8i" role="12Iyzl">
+        <property role="12IJHW" value="id" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8L" role="2ZgLOL">
+        <property role="TrG5h" value="desc" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8M" role="2ZgLOL">
+        <property role="TrG5h" value="type" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8N" role="2ZgLOL">
+        <property role="TrG5h" value="path" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8O" role="2ZgLOL">
+        <property role="TrG5h" value="scale" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8P" role="2ZgLOL">
+        <property role="TrG5h" value="sfx_enter" />
+      </node>
+      <node concept="2rrJJu" id="475ninxEl8Q" role="2ZgLOL">
+        <property role="TrG5h" value="sfx_leave" />
+      </node>
+    </node>
+    <node concept="3qXRb_" id="475ninxEl8f" role="3qX4Gf">
+      <property role="TrG5h" value="weapon_atk" />
+    </node>
+  </node>
 </model>
 

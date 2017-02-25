@@ -28,6 +28,11 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
           break;
         case 1:
           if (true) {
+            return new LuaTableReference_Constraints();
+          }
+          break;
+        case 2:
+          if (true) {
             return new NumberReference_Constraints();
           }
           break;
@@ -45,5 +50,5 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     }
     return res;
   }
-  private static final Map<SAbstractConcept, Integer> indices_2qnle6_a0c = buildConceptIndices(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL, "DataModel.structure.LuaTable"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5c3470L, "DataModel.structure.NumberReference"));
+  private static final Map<SAbstractConcept, Integer> indices_2qnle6_a0c = buildConceptIndices(MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7c563eb53eec164eL, "DataModel.structure.LuaTable"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e250666cd08026cL, "DataModel.structure.LuaTableReference"), MetaAdapterFactory.getConcept(0xa61bdb2ea7448deL, 0x85237d716d56eee2L, 0x7e59491b2c5c3470L, "DataModel.structure.NumberReference"));
 }
